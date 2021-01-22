@@ -16,7 +16,7 @@ setup(
   keywords = ['utilities',],   # Keywords that define your package best
   long_description=long_description,
   long_description_content_type="text/markdown",
-  install_requires=['numpy','re'],
+  install_requires=['numpy'],
   classifiers=[
       "Programming Language :: Python :: 3",
       "License :: OSI Approved :: MIT License",

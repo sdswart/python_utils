@@ -20,3 +20,6 @@ Generate coverage report with: `py.test --cov=python_utils tests/`
 ####    - pip install --user --upgrade setuptools wheel twine numpy
 ####    - python setup.py sdist bdist_wheel
 ####    - python -m twine upload --repository-url https://pypi.gtl.fyi/ dist/*
+
+### Add pypi repo:
+###    - pip config --user set global.gtlpypi https://pypi.gtl.fyi/simple/
